@@ -1,7 +1,7 @@
 module.exports = {
   database: {
-    driver: 'sql',
-    database: 'db_staging',
+    driver: 'mongoose',
+    database: 'ssc_staging',
   },
 };
 
