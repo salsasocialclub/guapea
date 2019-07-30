@@ -1,0 +1,12 @@
+
+Casos de Uso:
+ - Usuario lista venues donde hay usuarios (Si no hay usuarios, no hay venues)
+ - Usuario selecciona venue en GDL
+    - Usuario lista usuarios que el sigue que están en el venue
+    - Usuario consulta cantidad de usuarios hombres que están en el venue
+    - Usuario consulta cantidad de usuarios mujeres que están en el venue
+ - Usuario busca otro usuario por username
+    - Usuario consulta perfil de usuario
+    - Usuario aprueba otro usuario para que lo pueda seguir
+ - Usuario registra visita en venue
+ - Usuario registra salida de venue
