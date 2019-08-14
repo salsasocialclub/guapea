@@ -1,12 +1,22 @@
 
 Casos de Uso:
  - Usuario lista venues donde hay usuarios (Si no hay usuarios, no hay venues)
- - Usuario selecciona venue en GDL
-    - Usuario lista usuarios que el sigue que están en el venue
-    - Usuario consulta cantidad de usuarios hombres que están en el venue
-    - Usuario consulta cantidad de usuarios mujeres que están en el venue
- - Usuario busca otro usuario por username
-    - Usuario consulta perfil de usuario
-    - Usuario aprueba otro usuario para que lo pueda seguir
+ - Usuario selecciona venue
+    - Usuario lista usuarios que están en el venue agrupados por los clubes a los que pertenece
+    - Usuario consulta cantidad total de usuarios hombres que están en el venue
+    - Usuario consulta cantidad total de usuarios mujeres que están en el venue
+ - Usuario busca club
+    - Usuario consulta perfil de club
+    - Usuario solicita unirse a club
+ - Usuario crea club
+ - Usuario elimina club
+ - Usuario aprueba solicitud de union a club
+ - Usuario abandona club
  - Usuario registra visita en venue
  - Usuario registra salida de venue
+
+
+Tipos de usuarios
+ - Creador         Es el unico que puede eliminar el club
+ - Administrador   Es el unico que puede aprobar solicitudes de union
+ - Miembro         Es el unico que puede solicitar unirse a un club
